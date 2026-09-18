@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+/* =========================
+   FONTS
+   ========================= */
+
+@font-face {
+  font-family: "Eternalo";
+  src: url("./assets/fonts/Eternalo.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mogilte";
+  src: url("./assets/fonts/Mogilte.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+/* =========================
+   COLORS
+   ========================= */
+
+:root {
+  --gold: #FFB703;
+  --cream: #FDF0D5;
+  --navy: #003049;
+  --blue: #669BBC;
+}
+
+
+/* =========================
+   GLOBAL
+   ========================= */
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--cream);
+  color: var(--navy);
+}
+
+
+/* =========================
+   FONT SYSTEM
+   ========================= */
+
+/* Big headings */
+.font-mogilte {
+  font-family: "Mogilte", serif !important;
+  font-weight: 300;
+}
+
+/* Small labels / captions / metadata */
+.small-serif {
+  font-family: Georgia, "Times New Roman", serif !important;
+}
+
+
+/* =========================
+   OPTIONAL UTILITIES
+   ========================= */
+
+.clean-sans {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
